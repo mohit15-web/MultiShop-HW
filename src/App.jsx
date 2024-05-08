@@ -1,3 +1,4 @@
+import Boxes from "./components/Boxes"
 import Categories from "./components/Categories"
 import FeaturedProduct from "./components/FeaturedProduct"
 import Footer from "./components/Footer"
@@ -11,6 +12,7 @@ function App() {
     <div className="">
       <Search/>
     <Navbar/>
+    <Boxes/>
     <Categories/>
     <FeaturedProduct/>
     <Footer/>
